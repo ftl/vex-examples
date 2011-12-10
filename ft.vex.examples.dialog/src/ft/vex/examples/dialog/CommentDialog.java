@@ -233,4 +233,8 @@ public class CommentDialog extends TitleAreaDialog {
 		return element;
 	}
 	
+	public Document getDocument() {
+		return document;
+	}
+	
 }
