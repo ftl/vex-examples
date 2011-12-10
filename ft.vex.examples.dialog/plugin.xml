@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            id="ft.vex.examples.dialog.actionSet"
+            label="Vex Sample Action Set"
+            visible="true">
+         <action
+               class="ft.vex.examples.dialog.OpenCommentDialogAction"
+               icon="icons/vex16.gif"
+               id="ft.vex.examples.dialog.actions.OpenCommentDialogAction"
+               label="&amp;Open Comment Dialog"
+               toolbarPath="vexSampleGroup"
+               tooltip="Open the comment dialog">
+         </action>
+      </actionSet>
+   </extension>
+
+</plugin>

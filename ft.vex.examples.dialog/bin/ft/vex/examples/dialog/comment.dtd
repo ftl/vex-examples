@@ -1,0 +1,10 @@
+<!ELEMENT comment ( #PCDATA | bug | b | i )* >
+
+<!ELEMENT bug ( #PCDATA | b | i )* >
+<!ATTLIST bug
+	id CDATA #REQUIRED
+>
+
+<!ELEMENT b ( #PCDATA | b | i )* >
+
+<!ELEMENT i ( #PCDATA | b | i )* >
