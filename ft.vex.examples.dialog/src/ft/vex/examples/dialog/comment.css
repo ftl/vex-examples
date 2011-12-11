@@ -14,7 +14,7 @@ bug:after {
 
 bug {
 	display: inline;
-	font-color: blue;
+	color: blue;
 }
 
 b {
